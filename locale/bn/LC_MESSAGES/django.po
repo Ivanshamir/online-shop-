@@ -7,16 +7,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-06 13:07+0600\n"
-"PO-Revision-Date: 2021-04-06 13:22+0600\n"
+"POT-Creation-Date: 2021-04-06 16:23+0600\n"
+"PO-Revision-Date: 2021-04-06 10:26+0000\n"
+"Last-Translator: b'  <>'\n"
+"Language-Team: \n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 2.4.2\n"
+"X-Translated-Using: django-rosetta 0.9.6\n"
 
 #: cart/forms.py:8 cart/templates/cart/detail.html:16
 msgid "Quantity"
@@ -85,13 +86,47 @@ msgstr "চেকআউট"
 msgid "Coupon"
 msgstr "কুপন"
 
-#: myshop/settings.py:113
+#: myshop/settings.py:114
 msgid "English"
 msgstr "ইংলিশ"
 
-#: myshop/settings.py:114
+#: myshop/settings.py:115
 msgid "Bengali"
 msgstr "বাংলা"
+
+#: myshop/urls.py:24
+msgid "admin/"
+msgstr "অ্যাডমিন"
+
+#: myshop/urls.py:25
+msgid "cart/"
+msgstr "কার্ট"
+
+#: myshop/urls.py:26
+msgid "orders/"
+msgstr "অর্ডারস"
+
+#: myshop/urls.py:27
+msgid "payment/"
+msgstr "প্রদান"
+
+#: myshop/urls.py:28
+#, fuzzy
+#| msgid "Coupon"
+msgid "coupons/"
+msgstr "কুপন"
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr "প্রক্রিয়া"
+
+#: payment/urls.py:9
+msgid "done/"
+msgstr "সম্পন্ন"
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr "বাতিল"
 
 #: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
 msgid "My shop"
@@ -119,7 +154,6 @@ msgstr[1] ""
 "\n"
 "                                %(items)s আইটেমগুলি, $%(total)s\n"
 "                            "
-
 
 #: shop/templates/shop/base.html:27
 msgid "Your cart is empty."
