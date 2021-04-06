@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <shamirimtiaz.ice@gmail.com>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-06 13:07+0600\n"
+"PO-Revision-Date: 2021-04-06 13:22+0600\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: cart/forms.py:8 cart/templates/cart/detail.html:16
+msgid "Quantity"
+msgstr "পরিমান"
+
+#: cart/templates/cart/detail.html:6 cart/templates/cart/detail.html:10
+msgid "Your shopping cart"
+msgstr "আপনার শপিং কার্ট"
+
+#: cart/templates/cart/detail.html:14
+msgid "Image"
+msgstr "ছবি"
+
+#: cart/templates/cart/detail.html:15
+msgid "Product"
+msgstr "পণ্য"
+
+#: cart/templates/cart/detail.html:17 cart/templates/cart/detail.html:43
+msgid "Remove"
+msgstr "অপসারণ"
+
+#: cart/templates/cart/detail.html:18
+msgid "Unit price"
+msgstr "ইউনিট মূল্য"
+
+#: cart/templates/cart/detail.html:19
+msgid "Price"
+msgstr "মূল্য"
+
+#: cart/templates/cart/detail.html:54
+msgid "Subtotal"
+msgstr "মোট"
+
+#: cart/templates/cart/detail.html:59
+#, python-format
+msgid ""
+"\n"
+"            <td>\"%(code)s\" coupon (%(discount)s%% off)</td>\n"
+"          "
+msgstr ""
+"\n"
+"            <td>\"%(code)s\" কুপন (%(discount)s%% ছাড়)</td>\n"
+"          "
+
+#: cart/templates/cart/detail.html:69
+msgid "Total"
+msgstr "মোট"
+
+#: cart/templates/cart/detail.html:80
+msgid "People who bought this also bought"
+msgstr "যারা এটা কিনেছেন তারা এগুলোও খোজ করেছেন   "
+
+#: cart/templates/cart/detail.html:93
+msgid "Apply a coupon"
+msgstr "কুপন প্রয়োগ করুন "
+
+#: cart/templates/cart/detail.html:101
+msgid "Continue shopping"
+msgstr "আরও শপিং করুন"
+
+#: cart/templates/cart/detail.html:103
+msgid "Checkout"
+msgstr "চেকআউট"
+
+#: coupons/forms.py:6
+msgid "Coupon"
+msgstr "কুপন"
+
+#: myshop/settings.py:113
+msgid "English"
+msgstr "ইংলিশ"
+
+#: myshop/settings.py:114
+msgid "Bengali"
+msgstr "বাংলা"
+
+#: shop/templates/shop/base.html:7 shop/templates/shop/base.html:12
+msgid "My shop"
+msgstr "আমার শপ"
+
+#: shop/templates/shop/base.html:18
+msgid "Your cart"
+msgstr "আপনার কার্ট"
+
+#: shop/templates/shop/base.html:20
+#, python-format
+msgid ""
+"\n"
+"                                %(items)s item, $%(total)s\n"
+"                            "
+msgid_plural ""
+"\n"
+"                                %(items)s items, $%(total)s\n"
+"                            "
+msgstr[0] ""
+"\n"
+"                                %(items)s আইটেম, $%(total)s\n"
+"                            "
+msgstr[1] ""
+"\n"
+"                                %(items)s আইটেমগুলি, $%(total)s\n"
+"                            "
+
+
+#: shop/templates/shop/base.html:27
+msgid "Your cart is empty."
+msgstr "তোমার থলে তো খালি"
+
+#: shop/templates/shop/product/detail.html:21
+msgid "Add to cart"
+msgstr "কার্ট যোগ করুন"
+
+#: shop/templates/shop/product/list.html:6
+#: shop/templates/shop/product/list.html:24
+msgid "Products"
+msgstr "পণ্য"
+
+#: shop/templates/shop/product/list.html:11
+msgid "Categories"
+msgstr "বিভাগসমূহ"
+
+#: shop/templates/shop/product/list.html:14
+msgid "All"
+msgstr "সমস্ত"
