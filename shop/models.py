@@ -11,7 +11,7 @@ class Category(models.Model):
 
     class Meta:
         ordering = ('name',)
-        verbose_name = 'category'
+        verbose_name = 'category'  # A human-readable name for the object, singular:verbose_name = "pizza"
         verbose_name_plural = 'categories'
 
     def __str__(self):
@@ -35,7 +35,7 @@ class Product(models.Model):
 
     class Meta:
         ordering = ('name',)
-        unique_together = (('id', 'slug'),)
+        index_together = (('id', 'slug'),)
 
     def __str__(self):
         return self.name
